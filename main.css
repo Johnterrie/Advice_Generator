@@ -31,7 +31,7 @@ body {
     align-items: center;
     font-size: 11px;
     white-space: 1px;
-    color: hsl(150, 100%, 66%);
+    color: hsl(193, 38%, 86%);
 }
 
 .para {
@@ -67,9 +67,13 @@ body {
     position: relative;
     top: 12rem;
     left: 44%;
-    background-color: hsl(150, 100%, 66%);
+    background-color: hsl(193, 38%, 86%) ;
     border: none;
 
+}
+
+.square:hover {
+    background-color: hsl(150, 100%, 66%) ;
 }
 
 @media only screen and (max-width: 900px) {
